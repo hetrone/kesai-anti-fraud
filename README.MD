@@ -6,6 +6,7 @@
 # 数据下载
 - [点击下载初赛阶段训练集](https://www.kesci.com/urls/a0910f01)
 - [点击下载初赛阶段测试集](https://www.kesci.com/urls/2fea236a)
+
 下载解压后将train.tsv和test_A.tsv放入data根目录
 
 # 组织分工
