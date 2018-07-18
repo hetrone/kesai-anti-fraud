@@ -3,6 +3,8 @@
 - 每人负责一个模块的开发，以文件的形式交互
 - 测试数据及与训练数据集放在一起处理
 - 标签中1代表欺诈用户，0代表正常用户
+- 采用Python3开发环境
+- data目录下包含：train.tsv,train_id.tsv,test_A.tsv,train_derive.csv,train_selection.csv,train_transform.csv,predeict_A.csv
 
 # 数据下载
 - [点击下载初赛阶段训练集](https://www.kesci.com/urls/a0910f01)
@@ -15,5 +17,5 @@
 - 王志远：负责特征衍生，开发1_feature_derive_wangzhiyuan.ipynb模块，输入train.tsv、test_A.tsv、train_id.tsv；输出train_derive.csv
 - 李源珣：负责特征筛选，开发2_feature_selection_liyuanxun.ipynb模块，输入train_derive.csv; 输出：train_selection.csv
 - 蔡语溪：负责特征的变换，开发3_feature_transform_caiyuxi.ipynb模块，输入train_selection.csv, 输出train_transform.csv
-- 李红旺：负责调参建模，开发4_parameter_tune_lihongwang.ipynb模块，输入train_transform.csv, 输出predict_A.tsv
+- 李红旺：负责调参建模，开发4_parameter_tune_lihongwang.ipynb模块，输入train_transform.csv, 输出predict_A.csv
 - 龚鹤扬：负责整体把控及技术指导
