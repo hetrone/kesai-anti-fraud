@@ -19,4 +19,3 @@
 - 李红旺：负责调参建模，开发4_parameter_tune_lihongwang.ipynb模块，输入train_transform.csv, 输出predict_A.csv
 - 龚鹤扬：负责整体把控及技术指导
 - test
-- test yuanxun
