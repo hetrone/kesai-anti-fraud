@@ -2,3 +2,5 @@
 .ipynb_checkpoints/
 data/train.tsv
 data/test_A.tsv
+*.xml
+*.iml
